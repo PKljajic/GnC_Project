@@ -1,12 +1,10 @@
 Identifiers:
-		subject (1 - 30)
-		activity (WALKING
-, WALKING_UPSTAIRS,
- WALKING_DOWNSTAIRS, SITTING,
- STANDING,
- LAYING)
+	
+	subject (1 - 30)
+	activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 Variables:
+
 	time parameters:
 		"timeBodyAccelerometer-mean()-X"
 		"timeBodyAccelerometer-mean()-Y"
