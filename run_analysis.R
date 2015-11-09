@@ -51,4 +51,4 @@ names(ex_dataset) <- gsub("BodyBody", "Body", names(ex_dataset))
 tidy_ds <- melt(ex_dataset, id = c("subject", "activity"))
 tidy_ds <- dcast(tidy_ds, subject + activity ~ variable, mean)
 
-write.table(tidy_ds, "./Project/tidy_dataset.txt", row.names = F)
+write.table(tidy_ds, file("./Project/tidy_dataset.txt", "wb"), row.names = F)
